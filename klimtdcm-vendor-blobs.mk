@@ -236,6 +236,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
+    vendor/samsung/klimtdcm/proprietary/lib/libak09911c.so:system/lib/libak09911c.so \
     vendor/samsung/klimtdcm/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/samsung/klimtdcm/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
