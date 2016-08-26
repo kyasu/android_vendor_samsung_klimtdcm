@@ -163,6 +163,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/samsung/klimtdcm/proprietary/bin/vcsFPService:system/bin/vcsFPService \
+    vendor/samsung/klimtdcm/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
+    vendor/samsung/klimtdcm/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
+    vendor/samsung/klimtdcm/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
+    vendor/samsung/klimtdcm/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
