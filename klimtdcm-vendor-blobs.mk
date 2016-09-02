@@ -195,6 +195,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/klimtdcm/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/klimtdcm/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/samsung/klimtdcm/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
