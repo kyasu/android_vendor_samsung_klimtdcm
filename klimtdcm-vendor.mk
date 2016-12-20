@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/klimtdcm/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/klimtdcm/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/samsung/klimtdcm/proprietary/bin/vcsFPService:system/bin/vcsFPService \
     vendor/samsung/klimtdcm/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
     vendor/samsung/klimtdcm/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     vendor/samsung/klimtdcm/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
@@ -128,11 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/klimtdcm/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/klimtdcm/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/klimtdcm/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
-    vendor/samsung/klimtdcm/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
     vendor/samsung/klimtdcm/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-    vendor/samsung/klimtdcm/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
-    vendor/samsung/klimtdcm/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
     vendor/samsung/klimtdcm/proprietary/vendor/firmware/bcm4350_V0301.0613.hcd:system/vendor/firmware/bcm4350_V0301.0613.hcd \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
