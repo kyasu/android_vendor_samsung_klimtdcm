@@ -120,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/samsung/klimtdcm/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/samsung/klimtdcm/proprietary/lib/libmmqjpeg_codec.so:system/lib/libmmqjpeg_codec.so \
+    vendor/samsung/klimtdcm/proprietary/lib/libperipheral_client.so:system/lib/libperipheral_client.so \
     vendor/samsung/klimtdcm/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/klimtdcm/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
     vendor/samsung/klimtdcm/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
@@ -147,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-    vendor/samsung/klimtdcm/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
@@ -181,6 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/samsung/klimtdcm/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -213,8 +214,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libmmcamera_s5k3l2xx.so:system/vendor/lib/libmmcamera_s5k3l2xx.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libmmcamera_s5k4e5ya.so:system/vendor/lib/libmmcamera_s5k4e5ya.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+    vendor/samsung/klimtdcm/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/samsung/klimtdcm/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
@@ -225,8 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
-    vendor/samsung/klimtdcm/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/samsung/klimtdcm/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libscve.so:system/vendor/lib/libscve.so \
