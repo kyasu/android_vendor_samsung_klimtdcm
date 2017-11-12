@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/klimtdcm/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/klimtdcm/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/samsung/klimtdcm/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/klimtdcm/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/klimtdcm/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/klimtdcm/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -120,11 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/lib/libperipheral_client.so:system/lib/libperipheral_client.so \
     vendor/samsung/klimtdcm/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/klimtdcm/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
-    vendor/samsung/klimtdcm/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/klimtdcm/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/klimtdcm/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/klimtdcm/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/klimtdcm/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/klimtdcm/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/klimtdcm/proprietary/lib/libvdis.so:system/lib/libvdis.so \
     vendor/samsung/klimtdcm/proprietary/vendor/firmware/bcm4350_V0301.0613.hcd:system/vendor/firmware/bcm4350_V0301.0613.hcd \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
