@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/samsung/klimtdcm/proprietary/vendor/bin/ks:system/vendor/bin/ks \
     vendor/samsung/klimtdcm/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/samsung/klimtdcm/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/samsung/klimtdcm/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
     vendor/samsung/klimtdcm/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/klimtdcm/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
@@ -51,7 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/vendor/etc/wifi/nvram_mfg.txt:system/vendor/etc/wifi/nvram_mfg.txt \
     vendor/samsung/klimtdcm/proprietary/vendor/etc/wifi/nvram_net.txt:system/vendor/etc/wifi/nvram_net.txt \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/hw/camera.vendor.msm8974.so:system/vendor/lib/hw/camera.vendor.msm8974.so \
-    vendor/samsung/klimtdcm/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    vendor/samsung/klimtdcm/proprietary/vendor/lib/hw/sensors.vendor.msm8974.so:system/vendor/lib/hw/sensors.vendor.msm8974.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libTsAe.so:system/vendor/lib/libTsAe.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libTsAf.so:system/vendor/lib/libTsAf.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libTs_J_Accm.so:system/vendor/lib/libTs_J_Accm.so \
@@ -117,6 +116,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/klimtdcm/proprietary/vendor/lib/libvdis.so:system/vendor/lib/libvdis.so \
+    vendor/samsung/klimtdcm/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/samsung/klimtdcm/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/samsung/klimtdcm/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/samsung/klimtdcm/proprietary/vendor/firmware/bcm4350_V0301.0613.hcd:system/vendor/firmware/bcm4350_V0301.0613.hcd \
